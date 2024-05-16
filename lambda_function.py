@@ -37,3 +37,4 @@ response = sns.publish(
 TopicArn=os.getenv('TopicArn'),
 Message="File {} has been formatted and filtered. Its been stored in{} as {}".format(input_key,bucket_name,file_name)
 )
+
